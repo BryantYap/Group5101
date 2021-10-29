@@ -3,7 +3,7 @@ body {
     font-family: Arial;
     color: #F6F4EB;
     background-color: #213E70;
-	text-align: justify
+    text-align: justify;
 }
 	 
 ul.navbar {
@@ -44,6 +44,20 @@ address {
     padding-top: 1em;
     border-top: thin dotted;
 }
+
+.column {
+    float: left;
+    width: 50%;
+    margin-left:-40px ;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
 
 .singleimg {
     display: block;
